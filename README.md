@@ -1,7 +1,5 @@
 # data-quality-rules-engine
 
-# Data Quality Rules Pipeline
-
 This diagram represents a real-world data quality rules framework I developed.
 
 ## Workflow Overview
