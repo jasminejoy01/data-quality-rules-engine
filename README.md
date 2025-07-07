@@ -6,7 +6,7 @@ This diagram represents a real-world data quality rules framework I developed.
 
 1. **Business users define rules** in plain English inside Excel
 2. A second Excel tab converts rules to **parameterized SQL statements**
-3. Rules are **ingested into Snowflake** as a table (`CORPBI.DATA_QUALITY`)
+3. Rules are **ingested into Snowflake** as a table.
 4. A Python script reads these rows and dynamically builds a consolidated SQL query
 5. This query is used in **stored procedures** and **testing dashboards**
 
